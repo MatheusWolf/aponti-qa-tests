@@ -1,0 +1,72 @@
+# ============================================
+# Dependências
+# ============================================
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# ============================================
+# Build / Output
+# ============================================
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# ============================================
+# Testes / # Playwright
+# ============================================
+coverage/
+.nyc_output/
+test-results/
+blob-report/
+playwright-report/
+playwright/.cache/
+/playwright/.auth/
+
+# ============================================
+# Variáveis de ambiente
+# ============================================
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================
+# Sistema operacional
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Editores / IDEs
+# ============================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# Temporários
+# ============================================
+*.tmp
+*.bak
+.cache/
+
+# Playwright
+
