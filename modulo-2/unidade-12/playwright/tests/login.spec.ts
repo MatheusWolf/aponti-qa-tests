@@ -81,7 +81,7 @@ test.describe('Login saucedemo / Swag Labs', () => {
             await page.getByPlaceholder('Username').fill(cenario.usuario);
             await page.getByPlaceholder('Password').fill(cenario.senha);
             await page.getByRole('button', { name: 'Login' }).click();
-
+            // .toContainText = Verifica se o elemento contém o texto esperado (mensagem de erro)
             await expect(page.locator('[data-test="error"]'))
                 .toContainText(cenario.mensagemDeErro);
         });
